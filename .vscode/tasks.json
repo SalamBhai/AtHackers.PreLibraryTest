@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "AtHackers/AtHackers/AtHackers.csproj",
+                "${workspaceFolder}/PreLibraryTest/PreLibraryTest.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "AtHackers/AtHackers/AtHackers.csproj",
+                "${workspaceFolder}/PreLibraryTest/PreLibraryTest.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "AtHackers/AtHackers/AtHackers.csproj"
+                "${workspaceFolder}/PreLibraryTest/PreLibraryTest.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
